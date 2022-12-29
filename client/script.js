@@ -98,7 +98,7 @@ const handleSubmit = async (e) => {
 
   // fetch data from server
 
-  const response = await fetch('http://localhost:5005', {
+  const response = await fetch('https://codex-nqht.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
